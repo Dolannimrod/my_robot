@@ -1,4 +1,6 @@
+/home/nimrod/ws_1/install/prac_robot_description/share/prac_robot_description//urdf/mobile_base.xacro
 /home/nimrod/ws_1/install/prac_robot_description/share/prac_robot_description//urdf/prac_robot.urdf.xacro
+/home/nimrod/ws_1/install/prac_robot_description/share/prac_robot_description//urdf/properties.xacro
 /home/nimrod/ws_1/install/prac_robot_description/share/prac_robot_description//launch/display.launch.xml
 /home/nimrod/ws_1/install/prac_robot_description/share/prac_robot_description//rviz/urdf_Config.rviz
 /home/nimrod/ws_1/install/prac_robot_description/share/ament_index/resource_index/package_run_dependencies/prac_robot_description
