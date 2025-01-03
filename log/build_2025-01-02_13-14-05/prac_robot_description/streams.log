@@ -1,0 +1,31 @@
+[0.023s] Invoking command in '/home/nimrod/ws_1/build/prac_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nimrod/ws_1/src/prac_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nimrod/ws_1/install/prac_robot_description
+[0.053s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.435s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.624s] -- Configuring done (0.6s)
+[0.630s] -- Generating done (0.0s)
+[0.633s] -- Build files have been written to: /home/nimrod/ws_1/build/prac_robot_description
+[0.638s] Invoked command in '/home/nimrod/ws_1/build/prac_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nimrod/ws_1/src/prac_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nimrod/ws_1/install/prac_robot_description
+[0.641s] Invoking command in '/home/nimrod/ws_1/build/prac_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nimrod/ws_1/build/prac_robot_description -- -j4 -l4
+[0.732s] Invoked command in '/home/nimrod/ws_1/build/prac_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nimrod/ws_1/build/prac_robot_description -- -j4 -l4
+[0.755s] Invoking command in '/home/nimrod/ws_1/build/prac_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nimrod/ws_1/build/prac_robot_description
+[0.773s] -- Install configuration: ""
+[0.774s] -- Execute custom install script
+[0.775s] -- Symlinking: /home/nimrod/ws_1/install/prac_robot_description/share/prac_robot_description//urdf/prac_robot.urdf.xacro
+[0.796s] -- Symlinking: /home/nimrod/ws_1/install/prac_robot_description/share/prac_robot_description//launch/display.launch.xml
+[0.818s] -- Symlinking: /home/nimrod/ws_1/install/prac_robot_description/share/prac_robot_description//rviz/urdf_Config.rviz
+[0.840s] -- Symlinking: /home/nimrod/ws_1/install/prac_robot_description/share/ament_index/resource_index/package_run_dependencies/prac_robot_description
+[0.862s] -- Symlinking: /home/nimrod/ws_1/install/prac_robot_description/share/ament_index/resource_index/parent_prefix_path/prac_robot_description
+[0.883s] -- Symlinking: /home/nimrod/ws_1/install/prac_robot_description/share/prac_robot_description/environment/ament_prefix_path.sh
+[0.906s] -- Symlinking: /home/nimrod/ws_1/install/prac_robot_description/share/prac_robot_description/environment/ament_prefix_path.dsv
+[0.927s] -- Symlinking: /home/nimrod/ws_1/install/prac_robot_description/share/prac_robot_description/environment/path.sh
+[0.948s] -- Symlinking: /home/nimrod/ws_1/install/prac_robot_description/share/prac_robot_description/environment/path.dsv
+[0.969s] -- Symlinking: /home/nimrod/ws_1/install/prac_robot_description/share/prac_robot_description/local_setup.bash
+[0.990s] -- Symlinking: /home/nimrod/ws_1/install/prac_robot_description/share/prac_robot_description/local_setup.sh
+[1.013s] -- Symlinking: /home/nimrod/ws_1/install/prac_robot_description/share/prac_robot_description/local_setup.zsh
+[1.033s] -- Symlinking: /home/nimrod/ws_1/install/prac_robot_description/share/prac_robot_description/local_setup.dsv
+[1.054s] -- Symlinking: /home/nimrod/ws_1/install/prac_robot_description/share/prac_robot_description/package.dsv
+[1.073s] -- Symlinking: /home/nimrod/ws_1/install/prac_robot_description/share/ament_index/resource_index/packages/prac_robot_description
+[1.093s] -- Symlinking: /home/nimrod/ws_1/install/prac_robot_description/share/prac_robot_description/cmake/prac_robot_descriptionConfig.cmake
+[1.115s] -- Symlinking: /home/nimrod/ws_1/install/prac_robot_description/share/prac_robot_description/cmake/prac_robot_descriptionConfig-version.cmake
+[1.136s] -- Symlinking: /home/nimrod/ws_1/install/prac_robot_description/share/prac_robot_description/package.xml
+[1.159s] Invoked command in '/home/nimrod/ws_1/build/prac_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nimrod/ws_1/build/prac_robot_description
