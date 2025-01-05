@@ -17,6 +17,8 @@
             <origin xyz="0 0 ${base_height / 2.0}" rpy="0 0 0" />
             <material name="grey" />
         </visual>
+        <xacro:box_inertia m="5.0" l="${base_length}" w="${base_width}" h="${base_height}"
+                           xyz="0 0 ${base_height / 2.0}" rpy="0 0 0" />
     </link>
 
     <link name="lidar_link">
@@ -90,5 +92,5 @@
         <child link="caster_wheel" />
         <origin xyz="${base_length / 3.0} 0 -0.05" rpy="0 0 0" />
     </joint>
-    
+
 </robot>
