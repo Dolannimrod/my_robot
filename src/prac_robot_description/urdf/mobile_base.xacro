@@ -17,6 +17,12 @@
             <origin xyz="0 0 ${base_height / 2.0}" rpy="0 0 0" />
             <material name="grey" />
         </visual>
+        <collision>
+            <geometry>
+                <box size="${base_length} ${base_width} ${base_height}" />
+            </geometry>
+            <origin xyz="0 0 ${base_height / 2.0}" rpy="0 0 0" />        
+        </collision>
         <xacro:box_inertia m="5.0" l="${base_length}" w="${base_width}" h="${base_height}"
                            xyz="0 0 ${base_height / 2.0}" rpy="0 0 0" />
     </link>
@@ -29,6 +35,14 @@
             <origin xyz="0 0 0" rpy="0 0 0" />
             <material name="white" />
         </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="${wheel_radius}" length="${wheel_length}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </collision>
+        <xacro:cylinder_inertia m="0.2" r="${wheel_radius}" h="${wheel_length}"
+                             xyz="0 0 0" rpy="0 0 0" />
     </link>
 
      <link name="left_wheel">
@@ -39,6 +53,14 @@
             <origin xyz="0 0 0" rpy="${pi / 2.0} 0 0" />
             <material name="white" />
         </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="${wheel_radius}" length="${wheel_length}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="${pi / 2.0} 0 0" />
+        </collision>
+        <xacro:cylinder_inertia m="1.0" r="${wheel_radius}" h="${wheel_length}"
+                             xyz="0 0 0" rpy="${pi / 2.0} 0 0" />
     </link>   
 
     <link name="right_wheel">
@@ -49,6 +71,14 @@
             <origin xyz="0 0 0" rpy="${pi / 2.0} 0 0" />
             <material name="white" />
         </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="${wheel_radius}" length="${wheel_length}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="${pi / 2.0} 0 0" />
+        </collision>
+        <xacro:cylinder_inertia m="1.0" r="${wheel_radius}" h="${wheel_length}"
+                             xyz="0 0 0" rpy="${pi / 2.0} 0 0" />
     </link>
 
     <link name="caster_wheel">
@@ -59,6 +89,14 @@
             <origin xyz="0 0 0" rpy="0 0 0" />
             <material name="white" />
         </visual>
+        <collision>
+            <geometry>
+                <sphere radius="0.05" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </collision>
+        <xacro:sphere_inertia m="0.5" r="0.05"
+                              xyz="0 0 0" rpy="0 0 0" />
     </link>
 
     <joint name="base_joint" type="fixed">
