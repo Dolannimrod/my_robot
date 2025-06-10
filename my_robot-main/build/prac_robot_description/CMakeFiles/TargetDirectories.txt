@@ -1,0 +1,9 @@
+/home/nimrod/Desktop/my_robot/my_robot-main/build/prac_robot_description/CMakeFiles/uninstall.dir
+/home/nimrod/Desktop/my_robot/my_robot-main/build/prac_robot_description/CMakeFiles/prac_robot_description_uninstall.dir
+/home/nimrod/Desktop/my_robot/my_robot-main/build/prac_robot_description/CMakeFiles/test.dir
+/home/nimrod/Desktop/my_robot/my_robot-main/build/prac_robot_description/CMakeFiles/edit_cache.dir
+/home/nimrod/Desktop/my_robot/my_robot-main/build/prac_robot_description/CMakeFiles/rebuild_cache.dir
+/home/nimrod/Desktop/my_robot/my_robot-main/build/prac_robot_description/CMakeFiles/list_install_components.dir
+/home/nimrod/Desktop/my_robot/my_robot-main/build/prac_robot_description/CMakeFiles/install.dir
+/home/nimrod/Desktop/my_robot/my_robot-main/build/prac_robot_description/CMakeFiles/install/local.dir
+/home/nimrod/Desktop/my_robot/my_robot-main/build/prac_robot_description/CMakeFiles/install/strip.dir

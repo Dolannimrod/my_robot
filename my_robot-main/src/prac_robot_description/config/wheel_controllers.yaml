@@ -1,0 +1,16 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    diff_drive_controller:
+      type: diff_drive_controller/DiffDriveController
+      left_wheel_names: ["base_left_joint"]
+      right_wheel_names: ["base_right_joint"]
+      wheel_separation: ${base_width + wheel_length}  # Match Xacro
+      wheel_radius: ${wheel_radius}  # Match Xacro
+      odom_frame_id: odom
+      base_frame_id: base_footprint
+      publish_rate: 50.0
