@@ -28,7 +28,7 @@ def generate_launch_description():
 
         # Gazebo (Harmonic)
         ExecuteProcess(
-            cmd=["gz", "sim", "-v", "4", "-r", "empty.sdf"],
+            cmd=["gz", "sim", "-v", "4", "-r", "Trial_world.sdf"],
             output="screen",
         ),
 
