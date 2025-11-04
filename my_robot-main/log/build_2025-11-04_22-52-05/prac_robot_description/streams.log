@@ -1,0 +1,44 @@
+[0.030s] Invoking command in '/home/nimrod/Desktop/my_robot/my_robot-main/build/prac_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nimrod/Documents/simple_arm/install/pick_place_arm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nimrod/Desktop/my_robot/my_robot-main/build/prac_robot_description -- -j4 -l4
+[0.125s] Invoked command in '/home/nimrod/Desktop/my_robot/my_robot-main/build/prac_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nimrod/Documents/simple_arm/install/pick_place_arm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nimrod/Desktop/my_robot/my_robot-main/build/prac_robot_description -- -j4 -l4
+[0.148s] Invoking command in '/home/nimrod/Desktop/my_robot/my_robot-main/build/prac_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nimrod/Documents/simple_arm/install/pick_place_arm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nimrod/Desktop/my_robot/my_robot-main/build/prac_robot_description
+[0.169s] -- Install configuration: ""
+[0.169s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//urdf
+[0.170s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//urdf/prac_robot.urdf.xacro
+[0.170s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//urdf/properties.xacro
+[0.170s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//urdf/mobile_base.xacro
+[0.171s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//urdf/gazebo.xacro
+[0.171s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//launch
+[0.171s] -- Installing: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//launch/robot.launch.py
+[0.172s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//launch/display.launch.xml
+[0.172s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//launch/world.launch.py
+[0.172s] -- Installing: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//launch/log
+[0.172s] -- Installing: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//launch/log/COLCON_IGNORE
+[0.173s] -- Installing: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//launch/log/list_2025-10-31_19-43-25
+[0.173s] -- Installing: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//launch/log/list_2025-10-31_19-43-25/logger_all.log
+[0.173s] -- Installing: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//launch/log/latest_list
+[0.173s] -- Installing: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//launch/log/latest
+[0.174s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//launch/prac_robot_gazebo.launch.py
+[0.174s] -- Installing: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//launch/.vscode
+[0.174s] -- Installing: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//launch/.vscode/c_cpp_properties.json
+[0.174s] -- Installing: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//launch/.vscode/browse.vc.db
+[0.970s] -- Installing: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//launch/.vscode/settings.json
+[0.971s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//rviz
+[0.971s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//rviz/urdf_Config.rviz
+[0.972s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//worlds
+[0.972s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description//worlds/Trial_world.sdf
+[0.973s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/ament_index/resource_index/package_run_dependencies/prac_robot_description
+[0.973s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/ament_index/resource_index/parent_prefix_path/prac_robot_description
+[0.973s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description/environment/ament_prefix_path.sh
+[0.974s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description/environment/ament_prefix_path.dsv
+[0.974s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description/environment/path.sh
+[0.974s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description/environment/path.dsv
+[0.975s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description/local_setup.bash
+[0.975s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description/local_setup.sh
+[0.975s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description/local_setup.zsh
+[0.975s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description/local_setup.dsv
+[0.976s] -- Installing: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description/package.dsv
+[0.976s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/ament_index/resource_index/packages/prac_robot_description
+[0.976s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description/cmake/prac_robot_descriptionConfig.cmake
+[0.976s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description/cmake/prac_robot_descriptionConfig-version.cmake
+[0.977s] -- Up-to-date: /home/nimrod/Desktop/my_robot/my_robot-main/install/prac_robot_description/share/prac_robot_description/package.xml
+[0.979s] Invoked command in '/home/nimrod/Desktop/my_robot/my_robot-main/build/prac_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nimrod/Documents/simple_arm/install/pick_place_arm:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nimrod/Desktop/my_robot/my_robot-main/build/prac_robot_description

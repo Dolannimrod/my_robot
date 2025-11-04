@@ -1,1 +1,2 @@
-/home/nimrod/Desktop/my_robot/my_robot-main/build/prac_robot_description/ament_cmake_environment_hooks/local_setup.dsv
+source;share/prac_robot_description/environment/ament_prefix_path.sh
+source;share/prac_robot_description/environment/path.sh

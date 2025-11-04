@@ -1,1 +1,1 @@
-/home/nimrod/Desktop/my_robot/my_robot-main/build/prac_robot_description/ament_cmake_environment_hooks/ament_prefix_path.dsv
+prepend-non-duplicate;AMENT_PREFIX_PATH;

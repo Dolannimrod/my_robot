@@ -86,7 +86,7 @@ def generate_launch_description():
         ]
     )
 
-    # Node to bridge messages like /cmd_vel and /odom
+    # Node to bridge /cmd_vel and /odom
     gz_bridge_node = Node(
         package="ros_gz_bridge",
         executable="parameter_bridge",
@@ -95,14 +95,17 @@ def generate_launch_description():
             "/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist",
             "/odom@nav_msgs/msg/Odometry@gz.msgs.Odometry",
             "/joint_states@sensor_msgs/msg/JointState@gz.msgs.Model",
-            "/tf@tf2_msgs/msg/TFMessage@gz.msgs.Pose_V"
+            "/tf@tf2_msgs/msg/TFMessage@gz.msgs.Pose_V",
+            "/camera/image@sensor_msgs/msg/Image@gz.msgs.Image",
+            "/camera/camera_info@sensor_msgs/msg/CameraInfo@gz.msgs.CameraInfo",
+
         ],
         output="screen",
         parameters=[
-            {'use_sim_time': True},
+            {'use_sim_time': True },
         ]
     )
-
+    
     launchDescriptionObject = LaunchDescription()
 
     launchDescriptionObject.add_action(rviz_launch_arg)
@@ -113,5 +116,5 @@ def generate_launch_description():
     launchDescriptionObject.add_action(spawn_urdf_node)
     launchDescriptionObject.add_action(robot_state_publisher_node)
     launchDescriptionObject.add_action(gz_bridge_node)
-
+    
     return launchDescriptionObject

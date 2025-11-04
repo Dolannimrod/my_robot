@@ -27,7 +27,7 @@
                            xyz="0 0 ${base_height / 2.0}" rpy="0 0 0" />
     </link>
 
-    <link name="lidar_link">
+    <link name="camera_link">
         <visual>
             <geometry>
                 <cylinder radius="${wheel_radius}" length="${wheel_length}" />
@@ -105,11 +105,24 @@
         <origin xyz="0 0 ${base_height / 2.0}" rpy="0 0 0" />
     </joint>
 
-    <joint name="base_lidar_joint" type="fixed">
+    <joint name="base_camera_joint" type="fixed">
         <parent link="base_link" />
-        <child link="lidar_link" />
+        <child link="camera_link" />
         <origin xyz="0 0 ${base_height + (wheel_length / 2.0) }" rpy="0 0 0" />
     </joint>
+
+    <gazebo reference="camera_link">
+        <material>Gazebo/Red</material>
+    </gazebo>
+
+    <joint type="fixed" name="camera_optical_joint">
+        <origin xyz="0 0 0" rpy="-1.5707 0 -1.5707"/>
+        <child link="camera_link_optical"/>
+        <parent link="camera_link"/>
+    </joint>
+
+    <link name="camera_link_optical">
+    </link>
 
     <joint name="base_left_joint" type="continuous">
         <parent link="base_link" />
@@ -130,6 +143,16 @@
         <child link="caster_wheel" />
         <origin xyz="${base_length / 3.0} 0 -0.05" rpy="0 0 0" />
     </joint>
+
+      <!-- STEP 8 - IMU -->
+  <joint name="imu_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <parent link="base_link"/>
+    <child link="imu_link" />
+  </joint>
+
+  <link name="imu_link">
+  </link>
 
         <!-- ROS 2 Control -->
     <ros2_control name="mobile_robot_hardware" type="system">
